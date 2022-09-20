@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BootApplication {
 
 	public static void main(String[] args) {
-		// start spring boot project by min.c00
+		// start spring boot project by min.c0000
 		SpringApplication.run(BootApplication.class, args);
 	}
 
