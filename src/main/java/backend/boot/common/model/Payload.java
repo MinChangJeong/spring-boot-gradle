@@ -1,4 +1,4 @@
-package backend.boot.common;
+package backend.boot.common.model;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

@@ -13,5 +13,5 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
         prePostEnabled = true
 )
 public class SecurityConfig extends WebSecurityConfiguration {
-    
+
 }
