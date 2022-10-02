@@ -10,7 +10,7 @@ public class SessionIntercepter implements HandlerInterceptor {
     public boolean preHandle(
             HttpServletRequest request, HttpServletResponse response,
             Object obj) throws Exception {
-        
+
         return false;
     }
 }
