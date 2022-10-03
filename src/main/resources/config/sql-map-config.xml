@@ -7,10 +7,10 @@
 
     <!-- 타입 Alias -->
     <typeAliases>
-        <typeAlias type="[model name]" alias="Payload" />
+        <typeAlias type="backend.boot.common.model.Payload" alias="Payload" />
     </typeAliases>
 
     <mappers>
-        <mapper resource="[mapper name]"/>
+        <mapper resource="Payload"/>
     </mappers>
 </configuration>
