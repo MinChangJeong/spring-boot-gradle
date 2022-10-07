@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = {"backend.boot.business", "backend.boot.model", "backend.boot.common"})
+@ComponentScan(basePackages = {"backend.boot.business", "backend.boot.security", "backend.boot.common"})
 public class MvcConfig extends WebMvcConfigurationSupport {
 
     @Override
@@ -33,9 +33,9 @@ public class MvcConfig extends WebMvcConfigurationSupport {
     public DataSource dataSource() {
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://localhost:13306/[DB Name]?serverTimezone=UTC");
+        hikariConfig.setJdbcUrl("jdbc:mysql://localhost:13306/mydb?serverTimezone=UTC");
         hikariConfig.setUsername("root");
-        hikariConfig.setPassword("");
+        hikariConfig.setPassword("0216");
 
         return new HikariDataSource(hikariConfig);
     }
