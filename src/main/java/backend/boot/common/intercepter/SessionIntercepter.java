@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class SessionIntercepter implements HandlerInterceptor {
+ 
+    // Session 검사
     @Override
     public boolean preHandle(
             HttpServletRequest request, HttpServletResponse response,
